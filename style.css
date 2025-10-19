@@ -1,0 +1,423 @@
+html {
+	margin:  0px;
+    padding: 0px auto;
+    height:100%;
+	font-family: trebuchet ms;
+}
+body {
+	height: 100%;
+	margin:  0px; 
+    padding: 0px auto;
+	padding-bottom:30px; 
+	font-family: trebuchet ms;
+	}
+#header {
+   padding:10px 0px 10px 0px;
+}
+#footer {
+    clear: both;
+    position: relative;
+    height: 30px;
+    margin-top: 20px;
+}
+ 
+#primary_nav_wrap
+{
+	margin-top:0px;
+	margin-left:0px;
+}
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	margin:0;
+	padding:0px;
+	font-family: trebuchet ms;
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:black;
+	height: 32px;
+	width: 100px;
+	text-decoration:none;
+	font-weight: bold;
+	font-size:18px;
+	line-height:30px;
+	padding:0px 0px 0px 0px;
+	text-align: center;
+}
+
+#primary_nav_wrap ul a:hover
+{
+	display:block;
+	color:white;
+	height: 32px;
+	text-decoration:none;
+	font-weight: bold;
+	font-size:18px;
+	line-height:30px;
+	padding:0px 0px 0px 0px;
+}
+#primary_nav_wrap ul a:active
+{
+	display:block;
+	color:white;
+	height: 32px;
+	text-decoration:none;
+	font-weight: normal;
+	font-size:18px;
+	line-height:30px;
+	padding:0px 0px 0px 0px;
+}
+#primary_nav_wrap ul li
+{
+	position:relative;
+	display: inline-block;
+	margin:0;
+	padding:0;
+	font-weight: none;
+	background: #FFFFFF;
+	width: 100px;
+	border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+#primary_nav_wrap ul li:hover
+{
+ background: #006bb3;
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top: 100%;
+	font-weight: none;
+	left:0;
+	font-size:14px;
+	background: #fff;
+	padding: 0;
+}
+
+/* Primary nav left */
+
+#primary_nav_wrap_left
+{
+	margin-top:0px;
+	margin-left:0px;
+}
+#primary_nav_wrap_left ul
+{
+	list-style:none;
+	position:relative;
+	margin:0;
+	padding:0;
+	font-family: trebuchet ms;
+}
+#primary_nav_wrap_left ul a {
+	display:block;
+	color:black;
+	height: 32px;
+	width: 180px;
+	text-decoration:none;
+	font-weight: bold;
+	font-size:18px;
+	line-height:33px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+}
+
+#primary_nav_wrap_left ul a:hover {
+	display:block;
+	color:white;
+	height: 32px;
+	text-decoration:none;
+	font-weight: bold;
+	font-size:18px;
+	line-height:33px;
+	padding: 0px 0px 0px 0px;
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.70);
+	-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.70);
+	box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.70);
+}
+
+#primary_nav_wrap_left ul li
+{
+	position:relative;
+	display: inline-block;
+	margin: 4px;
+	padding:0;
+	font-weight: none;
+	background: #eeeeee;
+	width: 180px;
+	border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+#primary_nav_wrap_left ul li:hover
+{
+ background: #1e4c9a;
+}
+
+#primary_nav_wrap_left ul li ul
+{
+	display:none;
+}
+
+
+#primary_nav_wrap_left ul li ul
+{
+  position:absolute;
+  left:0%;
+  top:0;
+  width:100%;
+  visibility:hidden;
+  opacity:0;
+  transition: transform 0.2s;
+  transform: translateX(50px);
+}
+
+
+#primary_nav_wrap_left ul li ul:hover
+{
+  transform: translateX(0px);
+  display:block;
+  color:#eee;
+  text-decoration:none;
+  transition:0.2s;
+	height: 32px;
+	width: 180px;
+	text-decoration:none;
+	font-weight: bold;
+	font-size:18px;
+	line-height:30px;
+	padding:0px 0px 0px 0px;
+	text-align: center;
+ background: #1e4c9a;
+}
+
+#primary_nav_wrap_left ul ul
+{
+	display:none;
+	position:relative;
+	display: inline-block;
+}
+
+#primary_nav_wrap_left ul ul:hover
+{
+	display:block;
+	color:black;
+	height: 32px;
+	width: 180px;
+	text-decoration:none;
+	font-weight: bold;
+	font-size:18px;
+	line-height:30px;
+	padding:0px 0px 0px 0px;
+	text-align: center;
+ background: #1e4c9a;
+}
+
+
+
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+.linkproiect {
+	font-family: trebuchet ms;
+	font-weight: bold;
+	font-size:15px;
+	color: #000000;
+}
+.indexproject {
+	font-family: trebuchet ms;
+	font-size:16px;
+	color: #000000;
+}
+.indexproject_wire_a {
+	font-family: trebuchet ms;
+	font-size:16px;
+	font-weight:bold;
+	color: #000000;
+	text-decoration: none;
+}
+.indexproject_wire_a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+	background: #006bb3;
+}
+.indexproject_wire {
+	width: 450px;
+	height: 27px;
+	padding: 4px 0px 0px 0px;
+	background: #eeeeee;
+	border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+.indexproject_wire:hover{
+	color: #FFFFFF;
+	background: #006bb3;
+}
+.buton_li_activ{
+ -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.70);
+ -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.70);
+ box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.70);
+}
+.font_general {
+	font-family: trebuchet ms;
+}
+.buton_send_form{
+	  color:#FFFFFF;
+  text-decoration:none;
+  font-weight: bold;
+	font-size:15px;
+  	margin: 4px;
+  padding: 8px 10px;
+  background:#1e4c9a;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  transition:0.2s;
+}
+.buton_send_form:hover{
+	  color:#FFFFFF;
+	  cursor:pointer;
+  text-decoration:none;
+  font-weight: bold;
+	font-size:15px;
+  	margin: 4px;
+  padding: 8px 10px;
+  background:#99b3ff;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  transition:0.2s;
+}
+.butons_reports{
+  color:#000000;
+  text-decoration:none;
+  font-weight: bold;
+  font-size:15px;
+  margin: 4px;
+  padding: 8px 10px;
+  background:#f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  transition:0.2s;
+}
+.butons_reports:hover{
+	  color:#FFFFFF;
+	  cursor:pointer;
+  text-decoration:none;
+  font-weight: bold;
+	font-size:15px;
+  	margin: 4px;
+  padding: 8px 10px;
+  background:#254c96;
+  border: 1px solid #FFFFFF;
+    	-webkit-box-shadow: 0px 0px 15px 0px rgba(51, 102, 255, 0.70);
+	-moz-box-shadow:    0px 0px 15px 0px rgba(51, 102, 255, 0.70);
+	box-shadow:         0px 0px 15px 0px rgba(51, 102, 255, 0.70);
+  border-radius: 5px;
+  transition:0.2s;
+}
+
+.butons_reports_activ{
+  color:#000000;
+  text-decoration:none;
+  font-weight: bold;
+  font-size:15px;
+  margin: 4px;
+  padding: 8px 10px;
+  background:#eeeeee;
+  border: 1px solid #f2f2f2;
+      	-webkit-box-shadow: 0px 0px 15px 0px rgba(51, 102, 255, 0.70);
+	-moz-box-shadow:    0px 0px 15px 0px rgba(51, 102, 255, 0.70);
+	box-shadow:         0px 0px 15px 0px rgba(51, 102, 255, 0.70);
+  border-radius: 5px;
+  transition:0.2s;
+}
+.butons_reports_activ:hover{
+	  color:#FFFFFF;
+	  cursor:pointer;
+  text-decoration:none;
+  font-weight: bold;
+	font-size:15px;
+  	margin: 4px;
+  padding: 8px 10px;
+  background:#254c96;
+  border: 1px solid #FFFFFF;
+    	-webkit-box-shadow: 0px 0px 15px 0px rgba(51, 102, 255, 0.70);
+	-moz-box-shadow:    0px 0px 15px 0px rgba(51, 102, 255, 0.70);
+	box-shadow:         0px 0px 15px 0px rgba(51, 102, 255, 0.70);
+  border-radius: 5px;
+  transition:0.2s;
+}
+
+
+.butons_li_submenu{
+  width: 180px;
+  color:#000000;
+  text-decoration:none;
+  font-weight: bold;
+  font-size:14px;
+  margin: 4px;
+  padding: 6px 10px;
+  background:#f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  transition:0.2s;
+}
+.butons_li_submenu:hover{
+ color:#FFFFFF;
+ cursor:pointer;
+ text-decoration:none;
+ font-weight: bold;
+ font-size:14px;
+ margin: 4px;
+ padding: 6px 10px;
+ background:#254c96;
+ border: 1px solid #FFFFFF;
+ -webkit-box-shadow: 0px 0px 15px 0px rgba(51, 102, 255, 0.70);
+ -moz-box-shadow:    0px 0px 15px 0px rgba(51, 102, 255, 0.70);
+ box-shadow:         0px 0px 15px 0px rgba(51, 102, 255, 0.70);
+ border-radius: 5px;
+ transition:0.2s;
+}
+.font_footer{
+	font-family: trebuchet ms;
+	font-size: 17px;
+	font-weight:bold;
+}
+.font_footer_mobil{
+	font-family: trebuchet ms;
+	font-size: 18px;
+	font-weight:bold;
+}
